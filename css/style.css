@@ -1,0 +1,27 @@
+tfoot th{
+    background-color: gray;
+}
+thead th{
+    background-color: darkslategray;
+    color: white;
+}
+caption{
+    font-size: 20px;
+}
+tr:nth-child(odd) td:nth-child(odd){
+    background-color: darkturquoise;
+}
+tr:nth-child(even) td:nth-child(odd){
+    background-color: paleturquoise;
+}
+tr:nth-child(odd) td:nth-child(even){
+    background-color: paleturquoise;
+}
+tr:nth-child(even) td:nth-child(even) {
+    background-color: azure;
+}
+table, th, td{
+    padding: 10px;
+    border: 2px solid darkslategray;
+    border-collapse: collapse;
+}
